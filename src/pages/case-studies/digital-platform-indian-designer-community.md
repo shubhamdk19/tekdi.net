@@ -1,9 +1,9 @@
 ---
 templateKey: case-study
-title: Cloud-based Interview Management System
-metakeywords: ["video interview", "hiring software", "cloud", "SaaS"]
-metadescription: 
-ogimage: /img/case-studies/large_interview.png
+title: A Digital platform/solution vamped for Indian Designer community
+metakeywords: ["associations management framework case studies", "association management framework", "digital transformation for associations", "platforms for association management"]
+metadescription: A success story on "How Tekdi Technologies solved challenges related to event management, membership management for Association of Designers of India (ADI) with its robust digital platforms and digital transformation solutions.
+ogimage:
 
 bannerSubTitle: Case Studies
 
@@ -12,7 +12,7 @@ tags:
    - business-process-transformation
 image: /img/case-studies/large_interview.png
 
-index: 7
+index: 10
 ---
 Association of Designers of India (ADI) is a world-class network developed to promote the best practices in the profession of design. It is the meaningful interface built for Indian Design Community/profession, that puts design professionals, industries, educational institutions, users, and policymakers on one single platform. 
 
