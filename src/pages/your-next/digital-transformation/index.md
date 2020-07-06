@@ -5,7 +5,7 @@ title: Digital Transformation
 subTitle: Digital Transformation
 image: /img/your-nxt/bg-digital-transformation.jpg
 
-metakeywords: ["digital transformation", ""]
+metakeywords: ["digital transformation", "leverage technology"]
 metadescription:
 ogimage: /img/tekdi-logo.png
 

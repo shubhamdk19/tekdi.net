@@ -5,7 +5,7 @@ metadescription:
 ogimage: 
 
 title: Success Stories
-subTitle: Success Stories
+subTitle:
 description: Here is some of our most interesting work. We work with organisations ranging from startups to large corporations, this has given us the experience of building solutions that scale.
 
 image: /img/case-studies/bg-success-stories.jpg

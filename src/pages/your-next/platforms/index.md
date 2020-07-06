@@ -3,8 +3,8 @@ templateKey: index-platforms
 metakeywords: ["platforms", ""]
 metadescription:
 ogimage: /img/tekdi-logo.png
-title: Platforms
-subTitle: Platforms
+title: Products & Platforms
+subTitle: 
 
 image: /img/your-next/bg-platforms.jpg
 

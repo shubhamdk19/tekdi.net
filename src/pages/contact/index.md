@@ -1,11 +1,11 @@
 ---
 templateKey: 'contact-page'
 title: Contact
-metakeywords: ["", ""]
+metakeywords: ["Tekdi Technologies", "Contact Us"]
 metadescription: 
 ogimage: /img/tekdi-logo.png
-image: /img/banner/contact.jpg
-subTitle: Reach us
+image: /img/banner/bg-contact-us.jpg
+subTitle:
 tagLine: '"Transform your business today. First consultation is on us!"'
 ---
 

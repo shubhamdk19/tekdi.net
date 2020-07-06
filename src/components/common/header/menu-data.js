@@ -17,10 +17,10 @@ export const menuData = [
                 label: 'Experience',
                 link: '/your-next/experience'
             },
-            {
-                label: 'Analytics',
-                link: '/your-next/analytics'
-            },
+            // {
+            //     label: 'Analytics',
+            //     link: '/your-next/analytics'
+            // },
         ]
     },
     {

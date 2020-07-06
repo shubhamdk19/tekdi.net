@@ -1,11 +1,11 @@
 ---
 templateKey: index-careers
 title: Careers
-metakeywords: ["careers", ""]
+metakeywords: ["work with us", "job opportunities", "play your part"]
 metadescription: 
 ogimage: /img/tekdi-logo.png
 subTitle: Work With Us
-image: /img/banner/careers.jpg
+image: /img/company/photos/careers-workplace.jpg
 heading: Open Positions
-
+description: 
 ---

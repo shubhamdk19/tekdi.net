@@ -1,6 +1,6 @@
 ---
 templateKey: index-industries
-metakeywords: ["Industries", ""]
+metakeywords: ["Industries"]
 metadescription:
 ogimage: /img/tekdi-logo.png
 title: Industries
