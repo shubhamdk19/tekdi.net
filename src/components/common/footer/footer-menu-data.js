@@ -1,7 +1,7 @@
 const comapanyMenuData = [
     {
         label:'About Us',
-        url:'/company',
+        url:'/about-us/',
     },
     {
         label:'Careers',
