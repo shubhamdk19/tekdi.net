@@ -7,7 +7,8 @@ ogimage: /img/tekdi-logo.png
 title: Capabilities
 subTitle: 
 
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel est ultricies metus hendrerit luctus. Proin at commodo erat. Vestibulum non pharetra arcu, vel vulputate augue. Nam dignissim nisi id nisi eleifend, feugiat rhoncus mauris cursus. Fusce in aliquam tortor. Morbi placerat mi eget orci pellentesque, non consequat nulla posuere. Vestibulum tincidunt consectetur arcu, ac ultricies sem. Donec volutpat lacinia elit, auctor ullamcorper mi pellentesque ac. Nulla ultricies nunc est, sed consequat nulla aliquet ac.
+description: We are a technology innovation partner for organisations. With a focus on scalable solutions and continuous learning we take you through the digital transformation journey - right from prototype stage to rollout and continuous evolution. Do view our [success stories](case-studies) that back up these claims.
 
 image: /img/capabilities/bg-capabilities.jpg
 ---
+We are a technology innovation partner for organisations. With a focus on scalable solutions and continuous learning we take you through the digital transformation journey - right from prototype stage to rollout and continuous evolution. Do view our [success stories](case-studies) that back up these claims.
