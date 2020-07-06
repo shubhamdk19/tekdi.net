@@ -54,12 +54,10 @@ journeyinfo:
 lifeattekdiimg:
     - img: /img/company/photos/1.jpg
     - img: /img/company/photos/7.jpg
-    - img: /img/company/photos/6.jpg
     - img: /img/company/photos/4.jpg
-    - img: /img/company/photos/5.jpg
-    - img: /img/company/photos/3.jpg
-    - img: /img/company/photos/2.jpg
-    
-
+    - img: /img/company/photos/casual-discussion.jpg
+    - img: /img/company/photos/discussion.jpg
+    - img: /img/company/photos/work1.jpg
+    - img: /img/company/photos/work2.jpg
 ---
 

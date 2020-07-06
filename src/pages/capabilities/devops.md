@@ -4,8 +4,8 @@ index: 5
 title: DevOps
 subTitle: 
 
-image: /img/capabilities/product-design.png
+image: /img/capabilities/devops.png
 
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel est ultricies metus hendrerit luctus. Proin at commodo erat. Vestibulum non pharetra arcu, vel vulputate augue. Nam dignissim nisi id nisi eleifend, feugiat rhoncus mauris cursus. Fusce in aliquam tortor. Morbi placerat mi eget orci pellentesque, non consequat nulla posuere. Vestibulum tincidunt consectetur arcu, ac ultricies sem. Donec volutpat lacinia elit, auctor ullamcorper mi pellentesque ac. Nulla ultricies nunc est, sed consequat nulla aliquet ac.
+description: We help applications of various maturity levels to leverage DevOps practices to help put features quickly in the hands of your users. We help organisations with various processes like Continuous Integration & Delivery, Monitoring, Cloud Migration, Containerisation, DevSecOps and Performance Engineering. We use best practices to ensure your environments keep running smoothly.
 ---
 

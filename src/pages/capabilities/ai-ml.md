@@ -2,7 +2,7 @@
 templateKey: capabilities
 index: 3
 title: AI & ML
-subTitle: Artificial Intelligence & Machine Learning
+subTitle:
 
 image: /img/your-next/ai-ml1.png
 

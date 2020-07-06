@@ -13,7 +13,7 @@ tags:
    - government-public-sector
    - publishing-media-news
 
-image: /img/case-studies/aadhaar-dashboard.png
+image: 
 
 index: 2
 ---

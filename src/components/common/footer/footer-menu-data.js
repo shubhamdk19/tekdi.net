@@ -1,7 +1,7 @@
 const comapanyMenuData = [
     {
         label:'About Us',
-        link:'/company',
+        url:'/company',
     },
     {
         label:'Careers',
@@ -19,7 +19,7 @@ const comapanyMenuData = [
 
 const yourNextMenuData = [
     {
-        label:'Digital Transformations',
+        label:'Digital Transformation',
         url:'/your-next/digital-transformation'
     },
     {
@@ -27,39 +27,31 @@ const yourNextMenuData = [
         url:'/your-next/platforms'
     },
     {
-        label:'Solutions',
-        url:'/your-next/solutions'
-    },
-    {
         label: 'Experience',
         url: '/your-next/experience'
     },
     {
-        label: 'Analytics',
-        url: '/your-next/analytics'
-    }
+        label:'Capabilities',
+        url:'/capabilities'
+    },
 ];
 
 const servicesMenuData = [
     {
-        label:'Product Development',
-        url:'capabilities#product-development'
-    },
-    // {
-    //     label:'SaSS',
-    //     url:'#'
-    // },
-    {
-        label:'Web Development',
-        url:'/capabilities#web-development'
+        label:'Product Engineering',
+        url:'/capabilities#product-engineering'
     },
     {
-        label:'Mobility',
-        url:'/capabilities#mobility'
+        label:'AI & ML',
+        url:'/capabilities#ai-ml'
     },
     {
-        label:'UI/UX',
-        url:'/your-next/experience#uiux'
+        label:'Conversational AI',
+        url:'/capabilities#conversational-ai-chatbots'
+    },
+    {
+        label:'DevOps',
+        url:'/capabilities#devops'
     }
 ];
 

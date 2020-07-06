@@ -10,7 +10,7 @@ bannerSubTitle: Case Studies
 summary: 
 tags: 
    - business-process-transformation
-image: /img/case-studies/large_interview.png
+image: 
 
 index: 10
 ---
