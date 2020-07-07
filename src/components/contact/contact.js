@@ -115,10 +115,8 @@ export class contactUs extends React.Component {
   }
   // Send a POST request
   render() {
-    let freeSalesScript = "function createFcn(nm){(window.freshsales)[nm]=function(){(window.freshsales).push([nm].concat(Array.prototype.slice.call(arguments,0)))}; } (function(url,appToken,formCapture){window.freshsales=window.freshsales||[];if(window.freshsales.length==0){list='init identify trackPageView trackEvent set'.split(' ');for(var i=0;i<list.length;i++){var nm=list[i];createFcn(nm);}var t=document.createElement('script');t.async=1;t.src='https://d952cmcgwqsjf.cloudfront.net/assets/analytics.js';var ft=document.getElementsByTagName('script')[0];ft.parentNode.insertBefore(t,ft);freshsales.init('"+process.env.GATSBY_FRESHSALES_URL+ "','"+ process.env.GATSBY_FRESHSALES_TOKEN +"',true);}})();"
     return (
         <form  onSubmit={this.handleSubmit}>
-          <script dangerouslySetInnerHTML= {{ __html: freeSalesScript }} />
           <div className="row">
             {this.state.submitMessage !== "" && this.state.closeAlert === false ?
                 <div className= {this.state.submitMessage.data.success === true ? "alert alert-success  col form-group" : "alert alert-danger col form-group"} role = "alert">
