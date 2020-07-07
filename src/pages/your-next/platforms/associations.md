@@ -10,7 +10,7 @@ description: Associations and federations are commonly facing challenges with cr
 <div class="row">
 <div class="col-md-5">
 
-  ![Associations](/img/your-next/associations-content-img.jpg)
+  ![Associations](/img/your-next/associations-about.jpg)
 </div>
 <div class="col-md-7">
 
