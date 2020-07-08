@@ -2,6 +2,8 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import { StaticQuery, graphql, withPrefix } from 'gatsby';
 import favicon from '../../../static/img/favicon/favicon-32x32.png'
+import fontURL from "./fonts/overpass-extralight.woff"
+
 
 const SEO = props => (
   <StaticQuery
@@ -26,7 +28,11 @@ const SEO = props => (
           ]}
         >
         <html lang="en" />
-
+        <link rel="preload"
+            as="font"
+            href={fontURL}
+            type="font/woff2"
+            crossOrigin="anonymous" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
