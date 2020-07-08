@@ -104,5 +104,6 @@ module.exports = {
           hostname: "www.tekdi.net",
       },
     },
+    `gatsby-plugin-client-side-redirect` // keep it in last in list
   ],
 }
