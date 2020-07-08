@@ -3,6 +3,11 @@
   "description": "The tekdi.net website built in GatsbyJS",
   "version": "0.0.9",
   "author": "The Tekdi Team",
+  "homepage": "https://www.tekdi.net",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tekdi/tekdi.net"
+  },
   "dependencies": {
     "@types/react-transition-group": "^4.2.4",
     "axios": "^0.19.1",
