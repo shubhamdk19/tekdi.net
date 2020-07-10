@@ -1,16 +1,12 @@
 ---
 templateKey: 'contact-page'
 title: Contact
-metakeywords: ["", ""]
+metakeywords: ["Tekdi Technologies", "Contact Us"]
 metadescription: 
 ogimage: /img/tekdi-logo.png
-
-bannerSubTitle: Reach us
-
-address_title: Address
-address: Office No. 6, Silver Fern, Karve Road, Kothrud, Pune 411038
-email_title: Email
-email_address: support@tekdi.com
+image: /img/banner/bg-contact-us.jpg
+subTitle:
+tagLine: '"Transform your business today. First consultation is on us!"'
 ---
 
 

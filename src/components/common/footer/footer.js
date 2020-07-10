@@ -1,9 +1,10 @@
 import React from 'react'; 
 import {Link} from 'gatsby';
-import {comapanyMenuData, technologyMenuData, servicesMenuData} from './footer-menu-data';
+import {comapanyMenuData, yourNextMenuData, servicesMenuData} from './footer-menu-data';
 import 'font-awesome/css/font-awesome.min.css';
 import Copyright from './copyright';
 import './footer.css';
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 //import jump from '../jump';
 
 const Footer = () => {
@@ -16,7 +17,7 @@ const Footer = () => {
                             <a className="fa-icon" href="https://www.linkedin.com/company/tekdi-technologies/" target="_blank" rel="noopener noreferrer">
                             <i className="fa fa-linkedin-square"></i>
                             </a>
-                            <a className="fa-icon" href="https://www.facebook.com/tekditechnologies" target="_blank">
+                            <a className="fa-icon" href="https://www.facebook.com/tekditechnologies" target="_blank" rel="noopener noreferrer">
                                 <i className="fa fa-facebook" aria-hidden="true"></i>
                             </a>
                             {/* <Link className="fa-icon" to="https://facebook.com" target="_blank" rel="noopener noreferrer">
@@ -25,10 +26,10 @@ const Footer = () => {
                         </div>
                         <div className="col-md-3 col-sm-6 col-xs-12">
                             <div className="office-address mb-5">
-                                <h4 className="section-title text-uppercase">Address</h4>
-                                <p>
+                                {/* <h4 className="section-title text-uppercase">Address</h4> */}
+                                {/* <p>
                                     Office No. 6, Silver Fern, Karve Road, Kothrud, Pune 411038 
-                                </p>
+                                </p> */}
                             </div>
                             {/* <div className="contact-info">
                                 <h4 className="section-title text-uppercase">Phone</h4>
@@ -59,11 +60,11 @@ const Footer = () => {
                             </nav>
                         </div>
                         <div className="footer-menu col-md-2 col-sm-4 col-xs-12">
-                            <h4 className="section-title text-uppercase">Technology</h4>
+                            <h4 className="section-title text-uppercase">Your Next</h4>
                             <nav>
-                                {technologyMenuData.length && (      
+                                {yourNextMenuData.length && (      
                                     <ul className="footer-menu-items unstyled">
-                                        { technologyMenuData.map (item => {
+                                        { yourNextMenuData.map (item => {
                                             //  const urlParts = item.url.split('#');
                                             //  if(urlParts.length > 1 ){
                                             //    return (<li key = {item.label} className="mb-3"><a href="#" role="link" data-link={item.url} onClick={jump}> {item.label} </a></li>)
@@ -91,7 +92,7 @@ const Footer = () => {
                                             //  else {
                                             //    return (<li key = {item.label} className="mb-3"><Link to={item.url}> {item.label} </Link></li>)
                                             //  }
-                                            return (<li key = {item.label} className="mb-3"><Link to={item.url}> {item.label} </Link></li>)
+                                            return (<li key = {item.label} className="mb-3"><AnchorLink to={item.url}>{item.label} </AnchorLink></li>)
                                         }
                                         ) }
                                     </ul>

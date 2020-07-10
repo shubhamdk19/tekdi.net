@@ -1,24 +1,14 @@
 ---
-templateKey: industries-page
+templateKey: industries
+index: 4
 title: Agriculture
-metakeywords: ["", ""]
-metadescription: Agriculture and Agro based businesses are increasing their efficiencies by adopting digital platforms. IOT based automation or software and systems to improve warehousing & reduce waste, technology can go a long way in transforming this grassroot industry
-ogimage: /img/industries/agriculture-bg.jpg
+subTitle: 
+image: /img/industries/industry-agriculture.png
 
-bannerSubTitle: Industries
+description: The agriculture industry influences many sectors of the economy. Digital technologies have the potential to revolutionize agriculture by helping farmers work more precisely, efficiently and sustainably. The supply chain from farmers to granaries and to the consumers & restaurants is in a shake up mode. Digital can bring about revolutionary benefits to this trillion dollar industry worldwide. From IoT and digital platforms to the humble text messaging platforms like WhatsApp, the agriculture sector can benefit significantly from digital transformation. Data-driven insights can improve decision-making and practices and help increase environmental performance while making the job more attractive to younger generations. By using technology as a sustainable and scalable resource, transformation can take this industry to new heights. Automation, IoT, Drones and Robotics are transforming this industry to create a new supply chain legacy.  IoT is simplifying and streamlining the collection, inspection and distribution of agricultural resources using sensors on equipment and machines. Drones continue to gain popularity with the agricultural sector for providing farmers with aerial views so they can see full fields and large spans of their operations. Robots in agriculture reduce manpower hours and increase yield potential. 
 
-caseStudyTag: agriculture
-
-subheading: Digital can bring about revolutionary benefits to this trillion dollar industry worldwide. From IoT and digital platforms to the humble Whatsapp, the agriculture sector can benefit significantly from digital transformation.
-icon: /img/industries/agriculture-icon.png
-hovericon: /img/industries/agriculture-icon-white.png
-image: /img/industries/agriculture-bg.jpg
-bgimage: /img/industries/agriculture-bg.jpg
-
-featuresubheading: Digital can bring about revolutionary benefits to this trillion dollar industry worldwide. From IoT and digital platforms to the humble Whatsapp, the agriculture sector can benefit significantly from digital transformation.
+# This Images is for the home page
+icon: /img/industries/education-icon.png
+hovericon: /img/industries/education-icon-white.png
 ---
-
-Agriculture and Agro based businesses are increasing their efficiencies by adopting digital platforms. IOT based automation or software and systems to improve warehousing & reduce waste, technology can go a long way in transforming this grassroot industry
-
-Agriculture and Agro based businesses are increasing their efficiencies by adopting digital platforms. IOT is a game changer to transform processes right from sowing and growing to warehousing and logistics. Technology can go a long way in transforming this grassroot industry.
 

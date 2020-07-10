@@ -1,7 +1,7 @@
 import Layout from '../components/layout/baselayout';
 import BlogPagination from '../components/blog/pagination';
 import renderList from '../components/blog/blog-list';
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import BlogCatList from '../components/blog/blog-cat-list';
 import BlogTagList from '../components/blog/blog-tag-list';
 import Banner from "../components/common/banner/banner"
@@ -9,14 +9,18 @@ import React, { Fragment } from 'react'
 import lodash from "lodash"
 
  class BlogTagPage extends React.Component {
-   
   render() {
-    const posts = this.props.data.allMarkdownRemark.edges
-    const { currentPage, numPages, tag, allTag } = this.props.pageContext
+    const posts = this.props.data.blogList.edges
+    const bannerData  = this.props.data.bannerData.frontmatter
+    const { currentPage, numPages, tag} = this.props.pageContext
     return (
       <Layout>
         <div className="blog-page">
-        <Banner bannerTitle= "blogs" bannerSubTitle = "blogs"/> 
+        <Banner
+            bannerTitle = {bannerData.title}
+            bannerSubTitle = {bannerData.subTitle}
+            image = {bannerData.image}
+          />
         <div className="container py-5">
           <div className="row">
             <Fragment>
@@ -24,13 +28,12 @@ import lodash from "lodash"
                   {
                     posts.map(renderList)
                   }
-              <BlogPagination 
+              <BlogPagination
                 currentPage={currentPage}
                 numPages={numPages}
                 contextPage={"tags/" + lodash.kebabCase(tag)}
                />
-            
-          </div> 
+          </div>
             </Fragment>
             <div className="col-md-3">
               <BlogCatList />
@@ -47,7 +50,7 @@ export default BlogTagPage;
 
 export const blogTagListQuery = graphql`
 query BlogListTagQuery($tag: String,$skip: Int!, $limit: Int!) {
-  allMarkdownRemark(
+  blogList:allMarkdownRemark(
     sort: { order: DESC, fields: [frontmatter___date] }
     filter: {frontmatter: {templateKey: {eq: "blog-post"}, tags: {in: [$tag]}}}
     limit: $limit
@@ -69,10 +72,32 @@ query BlogListTagQuery($tag: String,$skip: Int!, $limit: Int!) {
           featuredpost
           featuredimage {
             childImageSharp {
-              fluid(maxWidth: 200, quality: 100) {
+              fluid(maxWidth: 200) {
                 ...GatsbyImageSharpFluid
               }
             }
+          }
+        }
+      }
+    }
+  }
+  bannerData:markdownRemark(frontmatter: { templateKey: { eq: "index-blog" }}) {
+    frontmatter {
+      title
+      metakeywords
+      metadescription
+      subTitle
+      ogimage {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      image {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
           }
         }
       }

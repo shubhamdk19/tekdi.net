@@ -1,7 +1,6 @@
 @import "../common/scss/mixins.scss";
 .blog-list {
     letter-spacing: 0.5px;
-    border-bottom: 1px solid #ccc;
 
     &:last-child {
         border-bottom: none;
@@ -23,6 +22,9 @@
     }
     a.read-more {
         @include anchor-blue-style;
+    }
+    .featured-thumbnail {
+        margin-bottom: 15px;
     }
 }
 .pagination li a {

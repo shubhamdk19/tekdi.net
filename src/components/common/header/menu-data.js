@@ -1,114 +1,69 @@
 export const menuData = [
     {
-        label:'Digital Transformation',
+        label:'Your Next',
         link:'#',
-        key: 'digital',
+        key: 'yournext',
         className: 'parent',
-        submenus: [
+        submenus : [
             {
-                label:'Learning and Education technology',
-                link:'/digital-transformation/learning-edtech',
+                label: 'Digital Transformation',
+                link: '/your-next/digital-transformation'
             },
             {
-                label:'Business Process Transformation',
-                link:'/digital-transformation/business-process-transformation',
+                label: 'Platforms',
+                link: '/your-next/platforms'
             },
             {
-                label:'Content Management & Digital Publishing',
-                link:'/digital-transformation/content-management-digital-publishing',
-            },
-            {
-                label:'E-commerce and Marketplaces',
-                link:'/digital-transformation/ecommerce-and-marketplaces',
-            },
-            {
-                label:'Technology enablement of Nonprofits',
-                link:'/digital-transformation/technology-for-nonprofits',
+                label: 'Experience',
+                link: '/your-next/experience'
             },
             // {
-            //     label:'Transportation',
-            //     link:'/digital-transformation/transportation',
-            // },            
-        ]
-    },
-    {
-        label:'Products',
-        link:'#',
-        key: 'products',
-        className: 'parent',
-        submenus: [
-            {
-                label:'E-Learning Platform',
-                link:'/products-and-platforms/e-learning-platform',
-            },
-            {
-                label:'Non Profit Management',
-                link:'/products-and-platforms/non-profit-management',
-            },
-            {
-                label:'Enterprise Application Development Platform',
-                link:'/products-and-platforms/enterprise-application-development-platform',
-            },
-            {
-                label:'Unite',
-                link:'/products-and-platforms/unite',
-            },
-        ]
-    },
-    {
-        label:'Industries',
-        link:'#',
-        key: 'industries',
-        className: 'parent',
-        submenus: [
-            {
-                label:'Education',
-                link:'/industries/education',
-            },
-            {
-                label:'Government and Public Sector',
-                link:'/industries/government-public-sector',
-            },
-            {
-                label:'Agriculture',
-                link:'/industries/agriculture',
-            },
-            {
-                label:'Publishing, Media and News',
-                link:'/industries/publishing-media-news',
-            },            
-            {
-                label:'Not for Profit Organisations',
-                link:'/industries/not-for-profit-organisations',
-            },
-            // {
-            //     label:'Logistics & Transport',
-            //     link:'/industries/logistics-transport',
+            //     label: 'Analytics',
+            //     link: '/your-next/analytics'
             // },
         ]
     },
     {
-        label:'Careers',
-        link:'/careers',
-        key: 'careers',
-        className: 'careers',
+        label:'Industries',
+        link:'/industries',
+        key: 'industries',
+        className: 'industries',
+    },
+    // {
+    //     label:'How',
+    //     link:'#',
+    //     key: 'how',
+    //     //className: 'how',
+    //     className: 'parent',
+    //     submenus : [
+    //         {
+    //             label: 'Process',
+    //             link: '/how/process'
+    //         },
+    //         {
+    //             label: 'Competencies',
+    //             link: '/how/competencies'
+    //         },
+    //         {
+    //             label: 'Spirit of Opensource',
+    //             link: '/how/spirit-of-opensource'
+    //         },
+    //         {
+    //             label: 'Consulting',
+    //             link: '/how/consulting'
+    //         },
+    //     ]
+    // },
+    {
+        label:'Capabilities',
+        link:'/capabilities',
+        key: 'capabilities',
+        className: 'capabilities',
     },
     {
-        label:'Blog',
-        link:'/blog',
-        key: 'blog',
-        className: 'blog',
+        label:'Success Stories',
+        link:'/success-stories',
+        key: 'case-studies',
+        className: 'success-stories',
     },
-    {
-        label:'Company',
-        link:'/company',
-        key:'company',
-        className: 'company',
-    },
-    {
-        label:'Contact',
-        link:'/contact',
-        key: 'contact',
-        className: 'contact',
-    }
 ];

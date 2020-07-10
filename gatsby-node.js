@@ -38,7 +38,9 @@ const categories = []
 const tags = []
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
-
+  const {createRedirect} = actions
+   createRedirect({ fromPath: '/profile-common', toPath: 'https://app.box.com/s/f5cvqjng6mm1ubl0abvhkn62nkcp5n5z', isPermanent: true,
+  });
   return graphql(`
   query {
       blog:allMarkdownRemark(limit: 1000, filter: {frontmatter: {templateKey: { in: ["blog-post"]}}}) {
@@ -56,7 +58,7 @@ exports.createPages = ({ actions, graphql }) => {
           }
         }
       }
-      pages:allMarkdownRemark(limit: 1000, filter: {frontmatter: {templateKey: { in: ["digital-transformation", "industries-page","products-platforms", "blog-post", "case-study"]}}}) {
+      pages:allMarkdownRemark(limit: 1000, filter: {frontmatter: {templateKey: { in: ["blog-post", "case-study", "how", "positions", "platforms", "solutions", "digital-transformation", "analytics", "experience", "capabilities"]}}}) {
           edges {
             node {
               id
@@ -75,7 +77,7 @@ exports.createPages = ({ actions, graphql }) => {
       result.errors.forEach(e => console.error(e.toString()))
       return Promise.reject(result.errors)
     }
-    const  blog = result.data. blog.edges  
+    const  blog = result.data. blog.edges
     const postsPerPage = 5
     const numPages = Math.ceil(blog.length / postsPerPage)
     blog.forEach(edge => {
@@ -93,7 +95,7 @@ exports.createPages = ({ actions, graphql }) => {
           id,
         },
       })
-            
+
       Array.from({ length: numPages }).forEach((_, i) => {
         createPage({
           path: i === 0 ? `/blog` : `/blog/${i + 1}`,
@@ -106,12 +108,10 @@ exports.createPages = ({ actions, graphql }) => {
             currentPage: i + 1,
           },
         })
-      }) 
-      
+      })
     })
-    
 
-    // blog categories 
+    // blog categories
 
     const countCategories = categories.reduce((prev, curr) => {
       prev[curr] = (prev[curr] || 0) + 1
@@ -138,7 +138,6 @@ exports.createPages = ({ actions, graphql }) => {
       })
     })
 
-  
   // Make tag pages
   const countTags = tags.reduce((prev, curr) => {
     prev[curr] = (prev[curr] || 0) + 1
@@ -166,7 +165,7 @@ exports.createPages = ({ actions, graphql }) => {
   })
 
   //for the all pages
-    const pages = result.data.pages.edges  
+    const pages = result.data.pages.edges
     pages.forEach(edge => {
     const id = edge.node.id
     createPage({
@@ -180,7 +179,7 @@ exports.createPages = ({ actions, graphql }) => {
         id,
       },
     })
-  })    
+  })
 
   })
 }

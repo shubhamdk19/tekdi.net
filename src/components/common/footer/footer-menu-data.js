@@ -1,62 +1,58 @@
 const comapanyMenuData = [
     {
-        label:'Team',
-        url:'#'
-    },
-    {
-        label:'Vision',
-        url:'#'
+        label:'About Us',
+        url:'/about-us/',
     },
     {
         label:'Careers',
         url:'/careers'
     },
     {
+        label:'Blog',
+        url:'/blog'
+    },
+    {
         label:'Contact',
         url:'/contact'
     },
-    {
-        label:'Blog',
-        url:'/blog'
-    }
 ];
 
-const technologyMenuData = [
+const yourNextMenuData = [
     {
-        label:'Joomla',
-        url:'#'
+        label:'Digital Transformation',
+        url:'/your-next/digital-transformation'
     },
     {
-        label:'Angular',
-        url:'#'
+        label:'Platforms',
+        url:'/your-next/platforms'
     },
     {
-        label:'PHP & Frameworks',
-        url:'#'
-    }
+        label: 'Experience',
+        url: '/your-next/experience'
+    },
+    {
+        label:'Capabilities',
+        url:'/capabilities'
+    },
 ];
 
 const servicesMenuData = [
     {
-        label:'Product Development',
-        url:'#'
+        label:'Product Engineering',
+        url:'/capabilities#product-engineering'
     },
     {
-        label:'SaSS',
-        url:'#'
+        label:'AI & ML',
+        url:'/capabilities#ai-ml'
     },
     {
-        label:'Web Development',
-        url:'#'
+        label:'Conversational AI',
+        url:'/capabilities#conversational-ai-chatbots'
     },
     {
-        label:'Mobility',
-        url:'#'
-    },
-    {
-        label:'UI/UX',
-        url:'#'
+        label:'DevOps',
+        url:'/capabilities#devops'
     }
 ];
 
-export {comapanyMenuData, technologyMenuData, servicesMenuData}
+export {comapanyMenuData, yourNextMenuData, servicesMenuData}

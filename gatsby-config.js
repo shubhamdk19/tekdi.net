@@ -1,13 +1,23 @@
+const activeEnv = process.env.GATSBY_ACTIVE_ENV || process.env.NODE_ENV || "development"
+console.log(`Using environment config: '${activeEnv}'`)
 require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
+  path: `.env.${activeEnv}`,
 })
+
 module.exports = {
     siteMetadata: {
       title: 'Tekdi Technologies pvt. ltd.',
       description: 'Tekdi was founded in 2006 with an aim to use technology to make a positive impact to society. Since then, we have empowered 100+ organisations with the technology solutions across verticals',
   },
   plugins: [
-    'gatsby-plugin-sharp',
+    {
+      resolve: 'gatsby-plugin-sharp',
+      options: {
+        useMozJpeg: false,
+        stripMetadata: true,
+        defaultQuality: 75,
+      }
+    },
     'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-transformer-remark',
@@ -74,7 +84,7 @@ module.exports = {
         trackingId: "UA-277023-6",
         anonymize: true,
       }
-    }
+    },
   //   {
   //     resolve: `gatsby-plugin-recaptcha`,
   //     options: {
@@ -83,5 +93,20 @@ module.exports = {
   //        args: `?onload=onloadCallback&render=explicit`,
   //     },
   //  },
+    {
+      resolve: "gatsby-plugin-anchor-links",
+      options: {
+        offset: -100
+      }
+    },
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+          bucketName: process.env.S3_BUCKET_NAME,
+          protocol: "https",
+          hostname: process.env.HOST_NAME,
+      },
+    },
+    `gatsby-plugin-client-side-redirect` // keep it in last in list
   ],
 }

@@ -8,9 +8,7 @@ vacancy: '1'
 
 ---
 
-Qualification - BCA / MCA / BE (IT/Computer science)/BTech ME/MTech/ BCS/MCS
-
-Experience - 4-7 years
+Experience - **4-7 years**
 
 Are you a Problem Solver, Passionate about Technology, ambitious PHP Developer with minimum 5 years of experience and looking for a challenging role where you can learn a lot more?
 
@@ -30,3 +28,5 @@ You will work on the Joomla CMS and PHP frameworks. You should be able to integr
 * Improving process and implementation. 
 * Contribution to common code
 * Contribution to open source 
+
+Qualification - **BCA / MCA / BE (IT/Computer science)/BTech ME/MTech/ BCS/MCS**

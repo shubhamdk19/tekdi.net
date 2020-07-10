@@ -9,6 +9,7 @@ date: 2019-10-30T15:04:10.000Z
 featuredpost: true
 author: Ashwin
 featuredimage: /img/blog/ecowarriors.jpg
+bgimage: 
 
 category: 
   - Environment
@@ -22,7 +23,7 @@ description: At Tekdi, "Giving Back" is one of our core values. In Open Source s
 
 ##Go Green Diwali 2019
 
-This year, the Diwali gifts were a pair of cloth bags and steel tiffins to help everybody reduce the use of plastic bags and food packagin
+This year, the Diwali gifts were a pair of cloth bags and steel tiffins to help everybody reduce the use of plastic bags and food packaging
 
 ###Cloth Bags
 
