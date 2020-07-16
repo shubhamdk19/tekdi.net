@@ -15,18 +15,20 @@ description:
 <br /><br />
 
 <div class="row">
-<div class="col-md-4">
+<div class="col-md-3">
 
-![Joomla Text drawn with coloured torches](/img/capabilities/joomla-body.jpg)
+![Joomla solutions Developer](/img/capabilities/joomla-solutions-developer.png)
 
 </div>
 
-<div class="col-md-8">
+<div class="col-md-9">
 
 
 Tekdi has been one of the forerunners of using Joomla in one of the most innovative ways. Going beyond simple CMS websites, we use Joomla as a application development platform and also as a headless CMS. We have been working with Joomla since 2006 (from the mambo days) and have helped hundreds of customers leverage the Joomla platform to create sites and platforms of varying scale. Our team regularly contributes code to Joomla and participates in the Pizza and Bugs events.
 
 In 2009 we launched <a href="https://techjoomla.com/" target="blank" rel="noopener">Techjoomla</a>, a brand to build extensions for Joomla. Key commercial  extensions are Shika - an e-learning extension, JTicketing - online and offline event management with ticketing and JGive - an extension for accepting donations and micro-investments. In addition to these, we have over a dozen free and open source extensions
+
+<a align="center" href="#contact-form-bottom">Start a Joomla project with us <span class="fa fa-arrow-right"></span></a>
 
 
 </div>
