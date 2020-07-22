@@ -1,14 +1,14 @@
 ---
 templateKey: capabilities
-index: 2
+index: 5
 title: Joomla
-subTitle: 
-unlisted: 1
+subTitle: Asia's largest Joomla Development Company
+unlisted: 0
 
 image: /img/capabilities/joomla.png
 bgimage: /img/capabilities/joomla-body.jpg
 
-description: 
+description: Asia's largest Joomla Development Company
 ---
 
 <h1 align="center">Joomla Experts</h1>
@@ -25,9 +25,15 @@ description:
 <div class="col-md-9">
 
 
-Tekdi has been one of the forerunners of using Joomla in one of the most innovative ways. Going beyond simple CMS websites, we use Joomla as a application development platform and also as a headless CMS. We have been working with Joomla since 2006 (from the mambo days) and have helped hundreds of customers leverage the Joomla platform to create sites and platforms of varying scale. Our team regularly contributes code to Joomla and participates in the Pizza and Bugs events.
+Truth be told, Joomla is close to our hearts at Tekdi. It is something we strongly believe in. We forayed into the world of Joomla by chance in the year 2006, right around the time of the mambo days back then and over the years we have  built a strong legacy of developing large platforms as well as complex CMS sites that scale to several million user hits in a week. This capability saw us taking part in large domestic and global projects where scale, extensibility, modularity, and performance were key to success. 
 
-In 2009 we launched <a href="https://techjoomla.com/" target="blank" rel="noopener">Techjoomla</a>, a brand to build extensions for Joomla. Key commercial  extensions are Shika - an e-learning extension, JTicketing - online and offline event management with ticketing and JGive - an extension for accepting donations and micro-investments. In addition to these, we have over a dozen free and open source extensions
+### Open Source & the Community Connect
+
+At Tekdi, we have a strong commitment to opensource & believe in giving back to projects we build on. With Joomla we regularly contribute code & bug fixes, help organise Joomla Events in India, Speak & attend Joomla Events world wide & our entire team regularly participates in the world wide Joomla Bug fixing events.  
+
+### Techjoomla
+Started in 2009 to give our Joomla based offerings a dedicated home, it has since grown to serve a community of 100,000+ users through our free & commercial open source products. Our product kitty & Github repositories boast of 50+ products and offer a rich toolset for a variety of use cases from Ecommerce to Elearning & REST APIs to Enterprise reporting & Dashboarding. 
+
 
 <a align="center" href="#contact-form-bottom">Start a Joomla project with us <span class="fa fa-arrow-right"></span></a>
 
@@ -38,13 +44,35 @@ In 2009 we launched <a href="https://techjoomla.com/" target="blank" rel="noopen
 <p></p>
 
 <div class="row">
-<div class="col-md-1"></div>
-<div class="col-md-10">
+<div class="col-md-3">
 
-> A key open source contribution from Techjoomla has been com_api - a REST API extension for Joomla. Developers across the globe use this extension to add REST APIs to Joomla so that the APIs can be used to build Mobile apps, or to connect Joomla to 3rd party software like Mailchimp and Salesforce.
+#### Shika
+
+Simplify learning. Build your own learning site and learning app with best in class features that could help you model a modern day online university. 
 
 </div>
-<div class="col-md-1"></div>
+<div class="col-md-3">
+
+#### JTicketing
+
+A feature packed event booking system with a native event manager and integration for Jomsocial Events and JEvents. Also features an Android and iOS app for event organisers.
+
+</div>
+<div class="col-md-3">
+
+#### JGive
+
+Start  a crowdfunding campaign for a cause, or start a funding marketplace powered with a strong functionality and a powerful user interface. 
+
+</div>
+<div class="col-md-3">
+
+#### RestAPI
+
+Meet your needs and  the diverse needs of your customers using our ready connectors and power up your technology landscape. 
+
+</div>
+
 </div>
 
 <p></p>
@@ -78,6 +106,17 @@ If you are already invested in Joomla, we can help you make the most of your inv
 </div>
 <br />
 </div>
+<br />
+
+<div class="row">
+<div class="col-md-1"></div>
+<div class="col-md-10">
+
+> A key open source contribution from Techjoomla has been com_api - a REST API extension for Joomla. Developers across the globe use this extension to add REST APIs to Joomla so that the APIs can be used to build Mobile apps, or to connect Joomla to 3rd party software like Mailchimp and Salesforce.
+
+</div>
+<div class="col-md-1"></div>
+</div>
 
 <br />
 <h2 align="center">Some of our Joomla work</h1>
@@ -86,7 +125,7 @@ If you are already invested in Joomla, we can help you make the most of your inv
 <div class="row">
 <div class="col-md-6">
 
-**Mobile Website and UI revamp for India's Unique Indentity Program. Serving 50 million+ hits / month**
+#### Mobile Website and UI revamp for India's Unique Indentity Program. Serving 50 million+ hits / month
 
 Read about how we helped UIDAI revamp their Joomla implementation with a well researched information architecture, better use of custom extensions, more use of core extensions and a modern design. 
 
@@ -94,7 +133,7 @@ Read about how we helped UIDAI revamp their Joomla implementation with a well re
 </div>
 <div class="col-md-6">
 
-**Driving benefits to farmers - Digital backbone for an agricultural warehouse**
+#### Driving benefits to farmers - Digital backbone for an agricultural warehouse
 
 We built a digital platform for an agriculture warehouse company to improve operational efficiency, offer better rates and services to farmers and boost profits by leveraging a warehouse management system. 
 
