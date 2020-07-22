@@ -1,12 +1,12 @@
 ---
 templateKey: capabilities
-index: 5
+index: 6
 title: Joomla
-subTitle: Asia's largest Joomla Development Company
-unlisted: 0
+subTitle: 
+unlisted: 1
 
 image: /img/capabilities/joomla.png
-bgimage: /img/capabilities/joomla-body.jpg
+bgimage: 
 
 description: Asia's largest Joomla Development Company
 ---
@@ -24,7 +24,6 @@ description: Asia's largest Joomla Development Company
 
 <div class="col-md-9">
 
-
 Truth be told, Joomla is close to our hearts at Tekdi. It is something we strongly believe in. We forayed into the world of Joomla by chance in the year 2006, right around the time of the mambo days back then and over the years we have  built a strong legacy of developing large platforms as well as complex CMS sites that scale to several million user hits in a week. This capability saw us taking part in large domestic and global projects where scale, extensibility, modularity, and performance were key to success. 
 
 ### Open Source & the Community Connect
@@ -36,7 +35,6 @@ Started in 2009 to give our Joomla based offerings a dedicated home, it has sinc
 
 
 <a align="center" href="#contact-form-bottom">Start a Joomla project with us <span class="fa fa-arrow-right"></span></a>
-
 
 </div>
 </div>
@@ -141,6 +139,3 @@ We built a digital platform for an agriculture warehouse company to improve oper
 </div>
 
 </div>
-
-
-
