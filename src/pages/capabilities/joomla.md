@@ -21,7 +21,7 @@ description: Asia's largest Joomla Development Company
 <div class="row">
 <div class="col-md-3">
 
-![Joomla solutions Developer](/img/capabilities/joomla-solutions-developer.png)
+![Joomla solutions Developer](/img/capabilities/bg-joomla.jpg)
 
 </div>
 

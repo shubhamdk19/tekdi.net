@@ -68,7 +68,7 @@ export const pageQuery = graphql`
             }
             bgimage  {
               childImageSharp {
-                fluid(maxWidth: 100) {
+                fluid {
                   ...GatsbyImageSharpFluid
                 }
               }
