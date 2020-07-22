@@ -5,6 +5,9 @@ title: Joomla
 subTitle: 
 unlisted: 1
 
+metakeywords: ["joomla development", "joomla products", "joomla templates", "joomla cms"]
+metadescription: Joomla is close to our hearts at Tekdi. It is something we strongly believe in. We forayed into the world of Joomla by chance in the year 2006, right around the time of the mambo days back then and over the years we have  built a strong legacy of developing large platforms as well as complex CMS sites that scale to several million user hits in a week. This capability saw us taking part in large domestic and global projects where scale, extensibility, modularity, and performance were key to success. 
+
 image: /img/capabilities/joomla.png
 bgimage: 
 
