@@ -9,7 +9,7 @@ date: 2020-07-21T12:00:00.000Z
 featuredpost: true
 author: Shubham Kulkarni
 featuredimage: /img/blog/covid-working-remotely.jpg
-bgimage: /img/blog/woman-in-gray-sweat-shirt-sitting-beside-window-3759080.jpg
+bgimage: /img/blog/tekdi-covid-from-home2.jpg
 
 category: 
   - Work
@@ -45,9 +45,6 @@ In the new normal situation, our biggest anxiety was about keeping up the same l
 - We celebrated birthdays, anniversaries, and even a marriage ceremony of one of our colleagues. We also celebrated the 10th work anniversary of our two diamond team members. 
 
 Here's a few photos of our team spending their lockdown time working, cooking, exercising, getting creative and having some good fun.
-
-
-![Working from home during COVID lockdown](/img/blog/tekdi-covid-from-home2.jpg "Working from home during COVID lockdown")
 
 ![Working from home during COVID lockdown](/img/blog/tekdi-covid-from-home3.jpg "Working from home during COVID lockdown")
 
