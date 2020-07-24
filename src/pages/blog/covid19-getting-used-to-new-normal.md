@@ -28,7 +28,7 @@ Optimizing our work process and supporting a maintained workforce, we have prepa
 
 As everyone is working distantly, informational communication is a key to keep up the well-balanced work. We are making the best use of inter-communication mediums like Slack, Google Meet, Zoom, etc. These mediums have become an essential part of our working landscape connecting our team members, senior management, and directorial board members.  We are also making an effort to stay connected with our existing and prospective clients to understand their needs, queries, and assist them accordingly. We are doing everything possible to aid and support our customers and this approach has helped us maintain the same work speed and ecosystem. 
 
-![Working from a riverside farm](/img/blog/covid-working-remotely2.jpg "Working from a riverside farm")
+![Working from home during COVID lockdown](/img/blog/tekdi-covid-from-home1.jpg "Working from home during COVID lockdown")
 
 ## Motivating Team Members - The Backbone Of Our Ecosystem
 
@@ -43,6 +43,15 @@ In the new normal situation, our biggest anxiety was about keeping up the same l
 - We arranged a live yoga session,  a ‘spin a wheel’ session, drawing event where our teams showcased their talents. 
 - On one Saturday evening, we had a Chai pe Charcha event for the general conversation, where everyone connected virtually while having their tea or coffee mugs in hand. Whereas on another Saturday afternoon, we had an online Dabba party where all Tekdians had their lunch together. 
 - We celebrated birthdays, anniversaries, and even a marriage ceremony of one of our colleagues. We also celebrated the 10th work anniversary of our two diamond team members. 
+
+Here's a few photos of our team spending their lockdown time working, cooking, exercising, getting creative and having some good fun.
+
+
+![Working from home during COVID lockdown](/img/blog/tekdi-covid-from-home2.jpg "Working from home during COVID lockdown")
+
+![Working from home during COVID lockdown](/img/blog/tekdi-covid-from-home3.jpg "Working from home during COVID lockdown")
+
+![Working from home during COVID lockdown](/img/blog/tekdi-covid-from-home4.jpg "Working from home during COVID lockdown")
 
 
 ## Wrapping Up
