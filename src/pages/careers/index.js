@@ -50,7 +50,9 @@ const CareersIndexPage =  ({data}) => {
                       </div>
                       <div className="row">
                       <div className="col-md-6 col-sm-12 col-xs-12 ">
-                      <CareersModal position = {post.frontmatter.heading} />
+                      {/* <CareersModal position = {post.frontmatter.heading}/> */}
+                      {post.frontmatter.jobPortalLink ?
+                     <div className="mb-4 p-0"> <a className="btn-apply font-weight-bold" target="_blank" href={post.frontmatter.jobPortalLink }> Apply Now</a> </div>:  <CareersModal position = {post.frontmatter.heading} />}
                       </div>
                       <div className="col-md-6 col-sm-12 col-xs-12 ">
                       <Link className="open-position" to={post.fields.slug}>
@@ -91,6 +93,7 @@ export const pageQuery = graphql`
             type
             location
             vacancy
+            jobPortalLink
           }
         }
       }
