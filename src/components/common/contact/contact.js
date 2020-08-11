@@ -1,4 +1,6 @@
 import React from 'react';
+import PhoneInput from 'react-phone-input-2'
+import 'react-phone-input-2/lib/style.css'
 import './contact.scss';
 const axios = require(`axios`);
 
@@ -45,7 +47,8 @@ export class ContactUs extends React.Component {
         "message" : this.state.message,
         "pageUrl" : this.pageUrl,
       }
-     this.response();
+      console.log(this.state.data, 'After');
+     //this.response();
     }
   }
 
@@ -132,8 +135,25 @@ export class ContactUs extends React.Component {
                     <span className="error">{this.state.errors["name"]}</span>
                   </div>
                   <div className="col-md-4 col-xs-12 form-group">
-                      <input type="text" name="phone" id="phone" value={this.state.phone} onChange={this.handleInputChange} className="form-control" placeholder="Phone"  />
-                      <span className="error">{this.state.errors["phone"]}</span>
+                    <PhoneInput
+                      country={'in'}
+                      name="phone"
+                      id="phone"
+                      value={this.state.phone}
+                      onChange={phone => this.setState({ phone })}
+                      placeholder="Phone"
+                      enableSearch = {true}
+                      inputStyle={ { "paddingLeft" :"48px",
+                      "color":"#65737f"
+                      }}
+                      inputProps={{
+                        name: 'phone',
+                        required: true,
+                        autoFocus: true
+                      }}
+                      dropdownStyle= {{"color":"#65737f"  }}
+                    />
+                    <span className="error">{this.state.errors["phone"]}</span>
                   </div>
                   <div className="col-md-4 col-xs-12 form-group">
                       <input type="email" name="email" id="email" value={this.state.email} onChange={this.handleInputChange} className="form-control" placeholder="Email"  />
