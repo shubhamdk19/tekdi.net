@@ -91,5 +91,8 @@ The education industry is benefitting from AI’s many advantages, with the resu
 And this is just the beginning. Future of AI in education is predicted to be very dynamic and result-driven. As AI continues to advance and optimize its capabilities, we will soon begin to witness a new era of education — the results of which will be a marvel to witness.
 
 
-
+<div class="border border-secondary p-3">
+<h4>Want To Make Your Educational System Efficient And Effective With Artificial Intelligence?</h4>
+<center><a class="btn btn-primary" href="#contact-form-bottom">Contact Us Now!</a></center>
+</div>
 
