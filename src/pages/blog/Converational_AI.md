@@ -9,7 +9,7 @@ ogimage: /img/blog/covid-working-remotely.jpg
 date: 2020-10-29T12:00:00.000Z
 featuredpost: true
 author: Shubham Kulkarni
-featuredimage: /img/blog/image2.jpg
+featuredimage: /img/blog/image2.png
 bgimage: /img/blog/tekdi-covid-from-home2.jpg
 
 category: 
@@ -72,7 +72,7 @@ Gone are the days of studious students tucked away in those massive library hall
 - These CAI solutions can then act as a medium for student-teacher communication
 
 
-![Artificial Intelligence](/img/blog/image2.jpg "Artificial Intelligence")
+![Artificial Intelligence](/img/blog/image2.png "Artificial Intelligence")
 
 **5. Safe and Secure Feedback**
 
