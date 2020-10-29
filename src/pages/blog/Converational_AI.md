@@ -92,4 +92,7 @@ And this is just the beginning. Future of AI in education is predicted to be ver
 
 
 
-
+<div class="border border-secondary p-3">
+<h4>Want To Make Your Educational System Efficient And Effective With Artificial Intelligence?</h4>
+<center><a class="btn btn-primary" href="#contact-form-bottom">Contact Us Now!</a></center>
+</div>
