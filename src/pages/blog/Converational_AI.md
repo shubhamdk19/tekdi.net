@@ -10,7 +10,7 @@ date: 2020-10-29T12:00:00.000Z
 featuredpost: true
 author: Shubham Kulkarni
 featuredimage: /img/blog/image2.png
-bgimage: /img/blog/tekdi-covid-from-home2.jpg
+bgimage: 
 
 category: 
   - Education
